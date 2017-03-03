@@ -1,0 +1,470 @@
+
+body {
+	font-family:'heisei-kaku-gothic-std','ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'sans-serif';
+	font-size: 14px;
+	line-height: 1.6em;
+	margin: 0;
+	padding: 0;
+	color: #4A4A4A ;
+}
+
+a {
+	text-decoration: none!important;
+	color: #C06014;
+}
+
+.navbar-default {
+	background-color: #FFFFFF;
+	height: 90px;
+	border-bottom: thin solid #e4e4e4;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	box-shadow: 0 2px 3px rgba(0,0,0,.5)
+}
+
+.nav-link {
+	font-size: 1em;
+	margin-top: 30px;
+	font-weight: bold;
+}
+
+.nav-link:hover {
+	background-color: #db9e6d;
+	border-radius: 10px;
+
+}
+
+.logo {
+	float: left;
+	position: fixed;
+	margin: 10px 0 10px 0;
+}
+
+.banner {
+	padding-top: 80px;
+	width: 100%;
+	display: block;
+}
+
+.banner > .banner-image {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.banner-text {
+	color: #FFFFFF;
+	position: absolute;
+	width: 100%;
+	top:40%;
+	font-size: 4em;
+	left:0;
+/*	padding:1rem;
+	transform:translateY(-50%);*/
+}
+
+/*End Landing Area Banner + Nav*/
+
+
+/*Title headers */
+
+h1 {
+	text-align: center;
+	margin: 50px 0 50px 0;
+	color: #4A4A4A;
+	font-size: 2.25em;
+	line-height: 1.25em;
+}
+
+h2 {
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+
+h3 {
+	line-height: 2em;
+}
+
+/*Video container */
+
+#video {
+    display: table;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+
+/*Values container and text */
+
+.values-icon {
+	margin: auto;
+	display: block;
+	padding: 50px 0px 20px 0px;
+}
+
+.section-headerh3 {
+	color: #C06014;
+	font-size: 1.5em;
+	margin: 10px 0 0 0;
+	padding: 10% 0 0 0;
+}
+
+.section-paragraph {
+	font-size: 1em;
+	padding-top: 5px;
+	border-top: solid;
+	border-color: #6B7A8F;
+	border-radius: 2px;
+	padding-left: 4px;
+}
+
+/*.value-container {
+	padding-top: 50px;
+}*/
+
+
+/*Onboarding paragraphs*/
+/*onboarding icon containers*/
+
+.onboarding-icon {
+	display: block;
+	text-align: center;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.onboarding-paragraph {
+	margin: auto;
+	display: block;
+}
+
+.onboarding-des {
+	padding-top: 40px;
+	color: #4A4A4A;
+	font-size: 1.25em;
+}
+
+/*Call to action area and buttons*/
+
+.call-to-action-area {
+	width: 100%;
+	height: 320px;
+	background-color: #6B7A8F ;
+} 
+
+.cta-header {
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.cta-container {
+	padding: 40px 0 0 0;
+}
+
+.btn-trial {
+	background-color:#FFFFFF;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #FFFFFF;
+	display:inline-block;
+	cursor:pointer;
+	color:#6B7A8F;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration: none!important;
+	margin: 10px;
+}
+
+
+.btn-contact {
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:3px solid #FFFFFF;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration: none!important; 
+	text-shadow:0px 1px 0px #2f6627;
+	margin: 10px;
+}
+
+/*End CTA*/
+
+
+/*Start Student Voice */
+
+blockquote.quote {
+	font-size: 1.25em;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+}
+
+
+footer {
+	background-color: #f2f2f2;
+    border-top: thin solid #e4e4e4;
+}
+
+ul.footer-list {
+	margin: 40px;
+	list-style-type: none;
+}
+
+ul.footer-list a {
+	color: #4A4A4A;
+    text-decoration: none;
+}
+
+
+
+/*start program page elements */
+
+.usp-h3 {
+	text-align: center;
+	color: #C06014;
+	padding-top: 5%;
+	line-height: 1.2em;
+	font-size: 1.25em;
+}
+
+.usp-p {
+	text-align: center;
+	font-size: 1em;
+	padding: 5%;
+}
+
+.usp-background {
+	width: 100%;
+	height: 70%;
+	background-color: #6B7A8F;
+	padding-top: 90px;
+}
+
+.usp-rectangle {
+    width: 96%;
+    height: 170px;
+    border-radius: 8px;
+	background-color: #FFFFFF;
+}
+
+.usp-container {
+	padding: 2% 0 4% 0; 
+}
+
+.h1container {
+	color: #FFFFFF;
+/*	padding: 1% 0 2% 0;*/
+	margin: auto;
+	display: block;
+}
+
+.training-method {
+	margin: 50px 0 50px 0;
+}
+
+.subtitle {
+	text-align: center;
+	margin-bottom: 40px;
+	margin-right: 22%;
+	margin-left: 22%;
+	line-height: 1.5em;
+}
+
+.belt-links {
+	width: 100%;
+	height: 80%;
+	padding: 60px;
+	background-color: #6B7A8F;
+}
+
+.belt-buttons {
+	margin: auto;
+	display: block;
+	height: 80%;
+	width: 80%;
+	background-color: white;
+	border-radius: 8px;
+	box-shadow: 3px 3px 2px #888888;
+
+}
+
+.belt-image {
+	margin: 20px auto 20px auto;
+	display: block;
+	padding: 15% 15% 0 15%;
+}
+
+
+.belt-description {
+	color: #4A4A4A;
+	font-size: 1.25em;
+	text-align: center;
+	margin-bottom: 15%;
+}
+
+.table-container {
+	padding: 20px 80px 20px 80px;
+}
+
+
+th {
+	color: #C06014;
+	padding: 3px;
+	background-color: #ddddddd;
+}
+
+.schedule-container {
+	margin: 40px;
+}
+
+.schedule-tile {
+	width: 60%;
+	height: 200px;
+	border: solid;
+	border-color: #4A4A4A;
+	border-radius: 8px;
+	margin: auto;
+	display: block;
+	margin-bottom: 20px;
+}
+
+
+/*Start company Page */
+
+.mission-tile {
+	height: 200px;
+	border-radius: 8px;
+	background-color: #6B7A8F;
+	color: #FFFFFF;
+	padding: 50px;
+	margin-bottom: 20px;
+}
+
+#vision-statement {
+	height: 200px;
+	color: #FFFFFF;
+	background-color: #C06014;
+	padding: 50px;
+	border-radius: 8px;
+	margin: 0 4px 20px 4px;
+}
+
+.mission-tile > h4 {
+	line-height: 1.5em;
+	font-size: 1.25em;
+}
+
+#vision-statement > h4 {
+	line-height: 1.5em;
+	font-size: 1.25em;
+}
+
+
+.team-desc {
+	text-align: center;
+	margin: 20px 0 20px 0;
+}
+
+.team-name { 
+	color: #C06014;
+	margin: 20px 0 20px 0;
+	font-size: 1.5em;
+}
+
+hr {
+	width: 75%;
+	height: 3px;
+	background-color: #6B7A8F;
+}
+
+.about-container {
+	margin: auto;
+	display: block;
+	padding-bottom: 50px;
+}
+
+.map {
+	margin: auto;
+	display: table;
+}
+
+.about-header {
+	color: #C06014;
+	font-size: 1.5em;
+	text-align: left;
+	margin: 20px 0 20px 0;
+}
+
+.ceo-img {
+	padding-bottom: 5%;
+	margin: auto;
+	display: block;
+}
+
+/*individual belt pages*/
+
+.belt-desc {
+	margin: auto;
+	width: 75%;
+	padding-bottom: 5%;
+}
+
+.belt-details {
+	font-size: 1.25em;
+	margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding-left: 15px;
+    border-left: 3px solid #6B7A8F;
+    line-height: 1.8em; 
+}
+
+
+.belt-headerh3 {
+	color: #C06014;
+	font-size: 1.5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
