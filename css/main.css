@@ -87,7 +87,7 @@ body {
 	color: #FFFFFF;
 	position: absolute;
 	width: 100%;
-	top:40%;
+	top:35%;
 	font-size: 4em;
 	left:0;
 }
@@ -139,7 +139,7 @@ h1 {
 	text-align: center;
 	margin: 50px 0 50px 0;
 	color: #4A4A4A;
-	font-size: 3em;
+	font-size: 2.5em;
 	line-height: 1.25em;
 }
 
@@ -190,7 +190,7 @@ p {
 
 .section-headerh3 {
 	color: #C06014;
-	font-size: 2.5em;
+	font-size: 2.25em;
 	line-height: 1.2em;
 }
 
@@ -377,6 +377,26 @@ ul.footer-list a {
     text-decoration: none;
 }
 
+.footer-logo {
+	padding: 16% 0 0 7%;
+}
+
+.footer-logo > p {
+	line-height: 1.4em;
+	font-size: .75em;
+	padding-top: 10px;
+}
+
+.footer-content {
+	padding: 10% 0 0 0;
+
+}
+
+.footer-content > p {
+	font-size: 1em;
+	line-height: 1.2em;
+
+}
 
 
 
@@ -429,7 +449,7 @@ ul.footer-list a {
 
 .training-method {
 	padding: 5% 0 5% 0;
-	background-color: #FCFBF9;
+	/*background-color: #FCFBF9;*/
 }
 
 
@@ -548,13 +568,13 @@ th {
 	line-height: 1.4em;
 }
 
-.company-subtitle {
-	line-height: 1.4em;
-	padding: 10% 10% 0 5%;
+.team-intro {
+	line-height: 1.6em;
+	padding: 5% 5% 5% 5%;
 }
 
 
-.company-info {
+h2 > .company-info {
 	padding: 4%;
 	background-color: #FFFFFF;
 }
@@ -630,7 +650,7 @@ hr {
 
 /*individual belt pages*/
 
-.belt-desc {
+/*.belt-desc {
 	margin: auto;
 	width: 75%;
 	padding-bottom: 5%;
@@ -651,7 +671,33 @@ hr {
 .belt-headerh3 {
 	font-size: 2.25em;
 	color: #C06014;
+}*/
+
+.belt-values {
+	padding: 5% 0 5% 0;
+
 }
+
+.belt-values > h3 {
+	font-size: 2.25em;
+	color: #C06014;
+}
+
+.belt-header {
+	padding: 5% 0 0 0;
+}
+
+.belt-p {
+	padding: 4% 4% 0 0;
+}
+
+.belt-background {
+	margin-bottom: 10%;
+}
+
+
+
+
 
 
 
