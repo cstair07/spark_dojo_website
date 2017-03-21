@@ -8,16 +8,12 @@ body {
 	color: #4A4A4A ;
 }
 
-/*a {
-	text-decoration: none!important;
-	color: #C06014;
-}*/
 
 /*Begin Nav styling */
 
 .navbar-default {
 	background-color: #FFFFFF;
-	height: 82px;
+	height: 85px;
 	border-bottom: thin solid #e4e4e4;
 	position: fixed;
 	width: 100%;
@@ -29,33 +25,90 @@ body {
 	font-size: 1em;
 	margin-top: 30px;
 	font-weight: bold;
+	display: block;
 }
 
-.nav-link:hover {
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #C06014;
 	background-color: #e5e5e5;
 	border-radius: 2px;
 }
 
-.navbar-default .navbar-nav>li>a:hover {
+#contact-us {
+	background-color: #6B7A8F;
+	border-radius: 2px;
+	margin: 2px;
+	margin: 0 2px 0 2px;
+}
+
+#free-trial {
+	background-color: #C06014;
+	border-radius: 2px;
+	margin: 0 2px 0 2px;
+}
+
+#contact-us > a {
+	color: #FFFFFF;
+}
+
+#free-trial > a {
+	color: #FFFFFF;
+}
+
+
+#contact-us a:hover {
+	border-radius: 2px;
+	color: #6B7A8F;
+}
+
+#free-trial a:hover {
+	border: #C06014;
 	color: #C06014;
 }
 
-/*.contact-us {
-	background-color: #e5e5e5;
-	color: #FFFFFF;
-	font-size: 1em;
-	margin-top: 30px;
-	font-weight: bold;
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
 }
 
-.free-trial {
-	background-color: #e5e5e5;
-	color: #FFFFFF;
-	font-size: 1em;
-	margin-top: 30px;
+.dropdown-content a {
+	color: #4A4A4A;
 	font-weight: bold;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
 
-}*/
+li.dropdown {
+    display: inline-block;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: center;
+    /*padding: 14px 16px;*/
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border-radius: 2px;
+
+}
+
+.dropdown-content a:hover {
+	color:#C06014;
+	background-color: #e5e5e5;
+}
 
 
 .logo {
@@ -208,14 +261,6 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
 /*carousel*/
 
 
@@ -234,7 +279,7 @@ p {
 	font-size: 1.25em;
 	line-height: 1.3em;
 	text-align: center;
-	padding: 1% 2% 2% 2%;
+	padding: 1% 1% 2% 1%;
 	margin: 2% 0 5% 0;
 	z-index: 0;
 }
@@ -246,8 +291,16 @@ p {
 
 .carousel-control {
 	padding-top: 16%;
+	font-size: 150px;
 }
 
+/*.carousel-inner {
+    background: url('../images/StudentVoiceImage.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height:100%;
+ }
+*/
 
 
 
@@ -675,7 +728,7 @@ hr {
 
 
 .belt-values {
-	padding: 5% 0 5% 0;
+	padding: 2% 0 5% 0;
 
 }
 
@@ -698,7 +751,38 @@ hr {
 }
 
 
+blockquote{
+  display:block;
+  background: #fff;
+  padding: 15px 20px 15px 45px;
+  margin: 2% 13% 0 13%;
+  position: relative;
+  
+  /*Font*/
+  /*font-family: Georgia, serif;*/
+  font-size: 1.75em;
+  line-height: 1.4em;
+  color: #666;
+  text-align: justify;
+  
+  /*Borders - (Optional)*/
+  border-left: 8px solid #C06014;
+}
 
+blockquote::before{
+  content: "\201C"; /*Unicode for Left Double Quote*/
+  
+  /*Font*/
+  font-family: Georgia, serif;
+  font-size: 60px;
+  font-weight: bold;
+  color: #999;
+  
+  /*Positioning*/
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
 
 
 
