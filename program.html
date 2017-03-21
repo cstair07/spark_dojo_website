@@ -15,12 +15,12 @@
     <div class="navbar navbar-default navbar-f-top">
         <div class = "container">
             <div class="logo"><a href="#"><img src="images/SparkLogo.png" alt="Spark Logo"></img></a></div> <!-- logo image div -->
-            <button class="navbar-toggle" date-toggle = "collapse" data-target=".navHeaderCollapse">
+            <button type="button" class="navbar-toggle" date-toggle = "collapse" data-target="#navigationbar">
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <div class="collapse navbar-collapse navHeaderCollapse">
+            <div class="collapse navbar-collapse navHeaderCollapse" id="navigationbar">
                 <div class="nav-link">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="index.html">ホーム</a></li>
@@ -53,48 +53,51 @@
 
     <!-- start content -->
     <!-- usp banner area -->
+
     <div class= "usp-background">
-        <div class="usp-container">
-            <div class="container">
-                <h2 class="usp-header">Our training is incredibliy effective because of these reasons</h2>
-                <div class="row">
-                    <div class="rows-values">
-                        <div class="col-md-2">
-                            <img class ="usp-icon" src="images/chat.png"></img>
-                        </div>
-                        <div class="col-md-4">
-                                <h3 class="usp-h3">常に実際の場面を<br>想定したトレーニング</h3>
-                                <p class="usp-p">自己アピール、プレゼンテーション、ディスカッションなどのテクニックやロールプレイをひたすら実践</p>
-                        </div>
-                        <div class="col-md-2">
-                            <img class ="usp-icon"  src="images/route.png"></img>
-                        </div>
-                        <div class="col-md-4">
-                                <h3 class="usp-h3">目標設定と達成までの<br>ロードマップ設計</h3>
-                                <p class="usp-p">明確な目標の設定とそこまでの道筋をトレーナーと定め、3ヵ月毎に個人面談で経過を確認</p>
+        <section class="mobile-wrapper">
+            <div class="usp-container">
+                <div class="container">
+                    <h2>Our training is incredibliy effective because of these reasons</h2>
+                    <div class="row">
+                        <div class="rows-values">
+                            <div class="col-md-2">
+                                <img class ="usp-icon" src="images/chat.png"></img>
+                            </div>
+                            <div class="col-md-4">
+                                    <h3 class="usp-h3">常に実際の場面を<br>想定したトレーニング</h3>
+                                    <p class="usp-p">自己アピール、プレゼンテーション、ディスカッションなどのテクニックやロールプレイをひたすら実践</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class ="usp-icon"  src="images/route.png"></img>
+                            </div>
+                            <div class="col-md-4">
+                                    <h3 class="usp-h3">目標設定と達成までの<br>ロードマップ設計</h3>
+                                    <p class="usp-p">明確な目標の設定とそこまでの道筋をトレーナーと定め、3ヵ月毎に個人面談で経過を確認</p>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="rows-values">
-                        <div class="col-md-2">
-                            <img class ="usp-icon" src="images/success.png"></img>
-                        </div>
-                        <div class="col-md-4">
-                                <h3 class="usp-h3">とにかく自信をつける</h3>
-                                <p class="usp-p">英語で求められるコミュニケーションスタイルの理解、間違いを恐れない心構えを身につけるなど、意識変革を徹底的に進める</p>
-                        </div>
-                        <div class="col-md-2">
-                            <img class ="usp-icon" src="images/feedback.png"></img>
-                        </div>
-                        <div class="col-md-4">
-                                <h3 class="usp-h3">レッスン毎に個別課題を指摘</h3>
-                                <p class="usp-p">レッスン内でのパフォーマンスに関してトレーナーが癖・弱点とその対処法をメールで伝えて成長をサポート</p>
-                        </div>
-                    </div> <!-- row div -->
-                </div>
-            </div> <!-- div container -->
-        </div>
+                    <div class="row">
+                        <div class="rows-values">
+                            <div class="col-md-2">
+                                <img class ="usp-icon" src="images/success.png"></img>
+                            </div>
+                            <div class="col-md-4">
+                                    <h3 class="usp-h3">とにかく自信をつける</h3>
+                                    <p class="usp-p">英語で求められるコミュニケーションスタイルの理解、間違いを恐れない心構えを身につけるなど、意識変革を徹底的に進める</p>
+                            </div>
+                            <div class="col-md-2">
+                                <img class ="usp-icon" src="images/feedback.png"></img>
+                            </div>
+                            <div class="col-md-4">
+                                    <h3 class="usp-h3">レッスン毎に個別課題を指摘</h3>
+                                    <p class="usp-p">レッスン内でのパフォーマンスに関してトレーナーが癖・弱点とその対処法をメールで伝えて成長をサポート</p>
+                            </div>
+                        </div> <!-- row div -->
+                    </div>
+                </div> <!-- div container -->
+            </div>
+        </section>
     </div>
     <!-- end usp -->
 
@@ -139,18 +142,8 @@
 <!-- start level descrptions -->
 
 
-
-<!-- Belt overviews  -->
-                <!-- <a href="whitebelt.html" class="beltButton">初級クラス</a>
-                <a href="yellowbelt.html" class="beltButton">初中級クラス</a>
-                <a href="bluebelt.html" class="beltButton">中級クラス</a>
-                <a href="brownbelt.html" class="beltButton">上級クラス</a> -->
-
-
-
-
     <section class="belt-plan-desc">
-        <h1 class="belt-header">レベル<br>初級から上級までのレベルがあり<br>成長とともに昇級していく一気通貫プログラム</h1>
+        <h1>レベル<br>初級から上級までのレベルがあり<br>成長とともに昇級していく一気通貫プログラム</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
@@ -286,51 +279,26 @@
     </section>
 
     <!-- end schedule -->
-
     <h1>その他のサービス</h1>
-    <section>
-        <div class ="container">
-            <div class="row"> 
-                <div class="col-md-6">
-                    <img class="values-icon" src="images/interface.png" alt="interface"></img>
-                </div>
-                <div class="col-md-4">
-                        <h3 class="section-headerh3">プライベートコーチング</h3>
-                        <p class="section-paragraph">英語レジュメ・エッセイレビュー<br>英語プレゼンテーション準備<br>カスタマイズレッスン</p>
-                </div> <!-- column container -->
-            </div> <!-- Rows Div -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img class="center-block" src="images/interface.png"></img>
+                <h4 class="team-name">プライベートコーチング</h4>
+                <p class="team-desc">英語レジュメ・エッセイレビュー<br>英語プレゼンテーション準備<br>カスタマイズレッスン</p>
+            </div>
+            <div class="col-md-4"> 
+                <img class="center-block" src="images/target.png" alt="team"></img>
+                <h4 class="team-name">フォーカストレーニング</h4>
+                <p class="team-desc">発音矯正<br>プレゼンテーション<br>英語ライティング</p>            
+            </div>
+            <div class="col-md-4">
+                <img class="center-block" src="images/internet.png" alt="team"></img>
+                <h4 class="team-name">ケースチャレンジ</h4>
+                <p class="team-desc">国際電話<br>電話・ビデオ会議<br>プロジェクトロールプレイ<br>シミュレーション</p>
+            </div>
         </div>
-        <div class="container">
-            <div class="row"> 
-                <div class="col-md-6">
-                    <img class="values-icon" src="images/target.png" alt="goal"></img>
-                </div>
-                <div class="col-md-4">
-                        <h3 class="section-headerh3">フォーカストレーニング</h3>
-                        <p class="section-paragraph"> 
-                            発音矯正<br>
-                            プレゼンテーション<br>
-                            英語ライティング
-                        </p>
-                </div> <!-- column container -->
-            </div> <!-- Rows Div -->
-        </div>
-        <div class="container">
-            <div class="row"> 
-                <div class="col-md-6">
-                    <img class="values-icon" src="images/internet.png" alt="team"></img>
-                </div>
-                <div class="col-md-4">
-                        <h3 class="section-headerh3">ケースチャレンジ</h3>
-                        <p class="section-paragraph">国際電話<br>
-                            電話・ビデオ会議<br>
-                            プロジェクトロールプレイ<br>
-                            シミュレーション</p>
-                </div> <!-- column container -->
-            </div> <!-- Rows Div -->
-        </div><!--  Container Div  -->
-        <!-- End Value -->
-    </section>
+    </div>
 
 <br>
 <br>
