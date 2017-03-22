@@ -220,6 +220,10 @@ p {
 	display: table;
 }
 
+.video-area {
+	margin-bottom: 10%;
+}
+
 
 /*.video-container {
 position: relative;
@@ -524,12 +528,12 @@ ul.footer-list a {
 	color:#FFFFFF;
 	text-align: center;
 	font-size:1.5em;
-	padding: 12px 10px 12px 10px;
+	padding: 5%;
 	text-decoration:none!important;
 	margin: 10%;
 	position: absolute;
 	top: 70%;
-	left: 10%;
+	left: 15%;
 }
 
 .beltButton:hover {
@@ -750,7 +754,7 @@ hr {
 
 .belt-p {
 	padding: 4% 4% 0 0;
-	line-height: 1.6em;
+	line-height: 1.8em;
 }
 
 .belt-background {
@@ -765,10 +769,10 @@ blockquote{
   margin: 2% 13% 5% 13%;
   position: relative;
   font-size: 1.75em;
-  line-height: 1.4em;
+  line-height: 1.7em;
   color: #666;
   text-align: justify;
-  border-left: 8px solid #C06014;
+  border-left: 5px solid #C06014;
 }
 
 blockquote::before{
@@ -815,6 +819,10 @@ body {
 	font-size: 1em;
 	}
 
+h1 {
+	font-size: 1.5em;
+}
+
 .banner-text {
 		font-size: 2.5em;
 		top:15%;
@@ -840,11 +848,100 @@ body {
 	margin: 0 5% 0 5%;
 }
 
+#hide-mobile-icon {
+	display: none;
+}
+
+.belt-image {
+	padding: 8%
 }
 
 
+.beltButton {
+	margin: 20% 0 0 6%;
+}
+
+iframe {
+	height:150px;
+	width: 300px;
+}
+.carousel-caption {
+	/*padding: 5% 1% 0 1%;
+	margin: 10% 0 0 0;*/
+	top: 1%;
+
+}
+.carousel-caption > p {
+	font-size: .5em;
+	line-height: 1em
+
+}
+
+.carousel-caption > h4 {
+	font-size: .75em;
+	line-height: 1em;
+	margin-bottom: 0;
+}
 
 
+}
+
+@media screen and (max-width: 900px) {
+body {
+	font-size: 1em;
+	}
+
+.banner-text {
+		font-size: 2.5em;
+		top:15%;
+	}
+
+.footer-content {
+		margin: 0 0 15% 15%;
+	}
+
+.cta-header {
+		font-size: 1.75em;
+	}
+.banner-text-mid {
+		font-size: 2.5em;
+		top: 12%;
+	}
+
+.mobile-wrapper {
+	margin: 0 8% 0 8%;
+}
+
+.rows-values {
+	margin: 0 4% 0 0;
+}
+
+.training-method {
+	margin: 0 5% 0 5%;
+}
+
+#hide-mobile-icon {
+	display: none;
+}
+
+.belt-image {
+	padding: 8%
+}
+
+.beltButton {
+	top: 50%;
+	left: 30%;
+}
+
+}
+
+}
+
+
+@media (max-width: 767px) {
+    body > .container { overflow: hidden; } /* fix */
+    body > .container > * { overflow: visible; } /* reset back to normal */
+}
 
 
 
