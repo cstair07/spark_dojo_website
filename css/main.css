@@ -532,7 +532,7 @@ ul.footer-list a {
 	text-decoration:none!important;
 	margin: 10%;
 	position: absolute;
-	top: 70%;
+	top: 40%;
 	left: 15%;
 }
 
@@ -858,7 +858,7 @@ h1 {
 
 
 .beltButton {
-	margin: 20% 0 0 6%;
+	margin: 10% 0 0 6%;
 }
 
 iframe {
@@ -929,7 +929,7 @@ body {
 }
 
 .beltButton {
-	top: 50%;
+	top: 35%;
 	left: 30%;
 }
 
